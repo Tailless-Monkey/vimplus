@@ -176,6 +176,11 @@ An automatic configuration program for vim
 - **`安装vimplus完成后ycm不能够工作！！！`**
 
     这里的原因可能就有很多了，可能每个人遇到的问题不一样，但`vimplus`尽最大努力不让用户操心，需要注意的是ycm插件只支持`64`位的系统，更多信息请访问[ycm官网][38]。
+ 
+- ** `vim打开报错：YouCompleteMe unavailable: requires Vim compiled with Python (2.6+ or 3.3+) support.！！！`**
+ 
+    sudo apt install vim-python-jedi  尝试安装解决
+
 
 - **`在aaa用户下安装了vimplus，在bbb用户下不能使用？`**
 
